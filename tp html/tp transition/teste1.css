@@ -1,0 +1,36 @@
+h1{
+    color: red;
+    transition: linear;
+    transition: ease 2s;
+    transform: translateX(-300px);
+}
+
+h1:hover{
+    color: greenyellow;
+    transform: translateX(50px)
+
+
+}
+
+@keyframes super{
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(150px);
+    }
+    100% {
+        transform: translateX(150px) ;
+    }
+}
+
+div{
+    margin: 50px;
+    height: 100px;
+    width: 200px;
+}
+
+
+div:hover{
+    animation: super 2s;
+}

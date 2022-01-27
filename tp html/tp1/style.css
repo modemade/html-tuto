@@ -1,0 +1,79 @@
+header{ 
+    display: grid;
+    background-color: #424242;
+    grid-column: 1/ span 2;
+    grid-row: 1;
+    height: 100px;
+}
+.logoadrar{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    align-content: flex-start;
+    justify-content: start;
+    margin-left: 150px;
+}
+nav{
+    grid-column: 1/ span 2;
+    grid-row: 1;
+    display: flex;
+    align-content: flex-start;
+    justify-content: end;
+    margin-right: 150px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: red;
+}
+li:hover{
+    color: red;
+}
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+body{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 4;
+    grid-gap: 50px;
+}
+h1{
+    grid-column: 1/span 2;
+    grid-row: 2;
+    justify-self: center;
+    color: rgb(34, 153, 201);
+}
+.a1{
+    grid-column: 1;
+    grid-row: 3;
+    font-size: large;
+}
+.a2{
+    grid-column: 2;
+    grid-row: 3;
+    font-size: large;
+}
+.a3{
+    grid-column: 1;
+    grid-row: 4;
+    font-size: large;
+}
+.a4{
+    grid-column: 2;
+    grid-row: 4;
+    font-size: large;
+}
+h2{
+    color: rgb(34, 153, 201);
+}
+li{
+    float: left;
+    padding: 20px;
+    list-style-type: none;
+    color: white;
+    font-size: large;
+    text-decoration: underline;
+}

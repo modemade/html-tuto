@@ -1,0 +1,39 @@
+header{ 
+    display: grid;
+    background-color: #424242;
+    grid-column: 1/ span 2;
+    grid-row: 1;
+    height: 100px;
+}
+.logoadrar{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    align-content: flex-start;
+    justify-content: start;
+    margin-left: 150px;
+}
+h1{
+    color: #8ec12e;
+}
+h2{
+    color: #8ec12e;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4,10%);
+    grid-gap: 50px;
+}
+p{
+    font-size: x-large;
+    grid-column: 1;
+    grid-row: 3;
+
+}
+#logohtml{
+    grid-column: 2;
+    grid-row: 3;
+    margin: auto;
+}

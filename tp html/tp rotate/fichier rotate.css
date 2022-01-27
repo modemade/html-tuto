@@ -1,0 +1,12 @@
+img:hover{
+    transform: rotateY(40deg);
+}
+
+img:active{
+    transform: translateX(200px);
+}
+
+p{
+    transform: scale(0.5);
+    transform: translate(20px);
+}
